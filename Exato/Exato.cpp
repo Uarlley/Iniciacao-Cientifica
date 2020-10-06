@@ -449,7 +449,7 @@ void resolveModelo(){
         //    r[p][i] - (1 - u[p][i])*WMax <= barW[p + 1][m[p+1] + i];
         //    barW[p + 1][m[p+1] + i] <= r[p][i] + (1 - u[p][i])*WMax;
         //}
-        for( p = 2 ; p <= numPeriodos + 1  ; p++ ){
+        for( p = 2 ; p <= numPeriodos ; p++ ){
             for(i = m[p]+1 ; i <= barM[p] ; i++){
                 //restricao 8
                 restricoes.add( barW[p][i] - hatW*u[p][i] - barW[p+1][m[p+1]+i] <= 0 );
