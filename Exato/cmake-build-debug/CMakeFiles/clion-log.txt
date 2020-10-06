@@ -1,0 +1,35 @@
+/home/uarlley/Downloads/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/uarlley/Documents/IC/C++
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CPLEX Library: CPLEX_LIBRARY-NOTFOUND
+-- ILOCPLEX Library: CPLEX_ILOCPLEX_LIBRARY-NOTFOUND
+-- CONCERT Library: CPLEX_CONCERT_LIBRARY-NOTFOUND
+-- CPLEX Bin Dir: CPLEX_BIN_DIR-NOTFOUND
+-- Could NOT find CPLEX (missing: CPLEX_LIBRARY CPLEX_INCLUDE_DIR CPLEX_ILOCPLEX_LIBRARY CPLEX_CONCERT_LIBRARY CPLEX_CONCERT_INCLUDE_DIR) 
+-- CPLEX Library: CPLEX_LIBRARY-NOTFOUND
+-- ILOCPLEX Library: CPLEX_ILOCPLEX_LIBRARY-NOTFOUND
+-- CONCERT Library: CPLEX_CONCERT_LIBRARY-NOTFOUND
+-- CPLEX Bin Dir: CPLEX_BIN_DIR-NOTFOUND
+CMake Error at /home/uarlley/Downloads/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find CPLEX (missing: CPLEX_LIBRARY CPLEX_INCLUDE_DIR
+  CPLEX_ILOCPLEX_LIBRARY CPLEX_CONCERT_LIBRARY CPLEX_CONCERT_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /home/uarlley/Downloads/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  FindCPLEX.cmake:133 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:15 (FIND_PACKAGE)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/uarlley/Documents/IC/C++/cmake-build-debug/CMakeFiles/CMakeOutput.log".
