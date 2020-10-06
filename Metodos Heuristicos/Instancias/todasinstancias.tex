@@ -1,0 +1,54 @@
+\documentclass[]{article}
+
+\usepackage{multirow}
+\usepackage[a4paper, bottom=1.5cm, top=1.5cm, left=0.1cm, right=0.1cm]{geometry}
+
+\usepackage{longtable}
+\usepackage{accents}
+
+%\setlength{\arrayrulewidth}{1mm}
+%\setlength{\tabcolsep}{18pt} 
+\renewcommand{\arraystretch}{1.5}
+
+\newcommand{\MyTilde}[1]{\accentset{\sim}{#1}}
+
+%opening
+\title{}
+\author{}
+
+\begin{document}
+
+   \footnotesize
+   \begin{longtable}{|c|c|rl|rrll|}
+   \caption{{\normalsize Dados das instâncias de testes}} \label{tab:dadosInstancia} \\
+
+   \hline
+
+   \multirow{2}{*}{Inst\^{a}ncia} & \multirow{2}{*}{$P$} & \multicolumn{ 2}{c|}{Objetos} & \multicolumn{ 4}{c|}{Itens} \\ \cline{ 3- 8}
+    &   & \multicolumn{1}{l}{$m^s$} & $C_i^s$\times$W_i^s$ & \multicolumn{1}{l}{$n^s$} & \multicolumn{1}{l}{$\MyTilde{n}^s$} & $w_j^s$ & $ $ \\
+
+   \hline
+   \endfirsthead
+
+   \multicolumn{8}{c}%
+   {\tablename\ \thetable{} -- continuação da página anterior} \\
+   \hline
+
+   \multirow{2}{*}{Inst\^{a}ncia} & \multirow{2}{*}{$P$} & \multicolumn{ 2}{c|}{Objetos} & \multicolumn{ 4}{c|}{Itens} \\ \cline{ 3- 8}
+    &   & \multicolumn{1}{l}{$m^s$} & $C_i^s$\times$W_i^s$ & \multicolumn{1}{l}{$n^s$} & \multicolumn{1}{l}{$\MyTilde{n}^s$} & $w_j^s$ & $ $ \\
+
+   \hline
+   \endhead
+
+   \hline \multicolumn{8}{|r|}{{Continua na próxima página}} \\ \hline
+   \endfoot
+
+   \hline
+   \endlastfoot
+   \multirow{4}{*}{ 43} & \multirow{4}{*}{4}  &  1  &  5(572)  &  9  &  4 & 2(54), 83, 66, 5(24) & \\ 
+  &   &  4  &  4(332)1(222)5(592)3(553)  &  10  &  3 & 2(97), 4(85), 4(32) & \\ 
+  &   &  7  &  5(430)1(100)5(524)4(574)4(166)2(109)4(100)  &  6  &  4 & 37, 3(42), 63, 32 & \\ 
+  &   &  7  &  1(320)2(321)2(169)5(562)5(267)4(108)1(440)  &  19  &  6 & 2(91), 4(45), 68, 2(23), 5(66), 5(92) & \\ 
+\hline
+   \end{longtable}
+\end{document};
